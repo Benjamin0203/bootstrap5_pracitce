@@ -1,0 +1,13 @@
+/*make all the media (pics) flexiable*/
+@media (min-width: 768px) {
+    .news-input{
+      width: 50%;
+    }
+}
+
+/*make sure there is a gap (hight:56px) between the nav abr (Learn Bootstrap on the top) and the body content*/
+body::before{
+  display: block;
+  content: '';
+  height: 56px;
+}
